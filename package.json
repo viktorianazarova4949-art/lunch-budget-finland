@@ -1,0 +1,11 @@
+{
+  "name": "lunch-budget-finland",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python -m http.server 4173",
+    "test": "node --test",
+    "sync:prisma-prices": "node scripts/sync-prisma-prices.mjs"
+  }
+}

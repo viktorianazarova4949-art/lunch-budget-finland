@@ -1,0 +1,23 @@
+{
+  "source": "https://www.s-kaupat.fi/",
+  "sourceKind": "public-snapshot",
+  "status": "partial-product-snapshot",
+  "updatedAt": "2026-11-24T10:34:18.355Z",
+  "products": {
+    "spaghetti_500g": {
+      "url": "https://www.s-kaupat.fi/tuote/coop-spaghetti-pasta-luomu-500-g/7340191188013",
+      "price": 1.55,
+      "fetchedAt": "2026-11-24T10:34:18.132Z"
+    },
+    "lentils_500g": {
+      "url": "https://www.s-kaupat.fi/tuote/sabarot-beluga-linssi-500g/6406628000240",
+      "price": 5.17,
+      "fetchedAt": "2026-11-24T10:34:18.206Z"
+    },
+    "oven_salmon_kg": {
+      "url": "https://www.s-kaupat.fi/tuote/uuni-lohi/2006751600009",
+      "price": 39.9,
+      "fetchedAt": "2026-11-24T10:34:18.354Z"
+    }
+  }
+}
