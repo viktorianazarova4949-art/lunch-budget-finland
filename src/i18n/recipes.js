@@ -70,6 +70,78 @@ export const fiRecipes = {
       "Feta — 1 pkt",
       "Sitruuna — 1 kpl"
     ]
+  ],
+  "gnocchi": [
+    "Tomaattinen gnocchi",
+    "Kasvisruoka",
+    "Perunagnoccheja, tomaattia ja sulavaa mozzarellaa.",
+    [
+      "Perunagnocchi — 500 g",
+      "Tomaatti — 1 tölkki",
+      "Mozzarella — 1 pakkaus",
+      "Pinaatti — 1 pussi",
+      "Sipuli — 1 kpl"
+    ]
+  ],
+  "tacos": [
+    "Paputacot maissilla",
+    "Kasvisruoka",
+    "Rapeita kasviksia, papuja ja maissia lämpimissä tortilloissa.",
+    [
+      "Tortillat — 1 pakkaus",
+      "Pavut — 1 tölkki",
+      "Maissi — 1 tölkki",
+      "Tomaatti — 2 kpl",
+      "Avokado — 1 kpl"
+    ]
+  ],
+  "shakshuka": [
+    "Shakshuka kananmunilla",
+    "Lähi-idän klassikko",
+    "Kananmunia, tomaattia ja paprikaa mausteilla ja leivällä.",
+    [
+      "Kananmunat — 6 kpl",
+      "Tomaatti — 1 tölkki",
+      "Paprika — 2 kpl",
+      "Sipuli — 1 kpl",
+      "Leipä — 1 kpl"
+    ]
+  ],
+  "salmon-traybake": [
+    "Uunilohi ja kasvikset",
+    "Helppo päivällinen",
+    "Uunilohta perunoiden, parsakaalin ja sitruunan kanssa.",
+    [
+      "Lohifilee — 500 g",
+      "Peruna — 700 g",
+      "Parsakaali — 1 kpl",
+      "Sitruuna — 1 kpl",
+      "Oliiviöljy — 1 pullo"
+    ]
+  ],
+  "chicken-wraps": [
+    "Kanawrapit kasviksilla",
+    "Nopea lounas",
+    "Meheviä kanawrappeja rapeilla kasviksilla ja jogurttikastikkeella.",
+    [
+      "Broilerin filee — 400 g",
+      "Tortillat — 1 pakkaus",
+      "Salaatti — 1 pussi",
+      "Kurkku — 1 kpl",
+      "Jogurtti — 1 pakkaus"
+    ]
+  ],
+  "mushroom-risotto": [
+    "Sienirisotto",
+    "Kasvisruoka",
+    "Pehmeää riisiä herkkusienten, parmesaanin ja yrttien kanssa.",
+    [
+      "Risottoriisi — 300 g",
+      "Herkkusienet — 300 g",
+      "Kasvisliemi — 1 l",
+      "Parmesaani — 100 g",
+      "Sipuli — 1 kpl"
+    ]
   ]
 };
 
@@ -145,6 +217,78 @@ export const enRecipes = {
       "Feta — 1 pack",
       "Lemon — 1"
     ]
+  ],
+  "gnocchi": [
+    "Tomato mozzarella gnocchi",
+    "Vegetarian",
+    "Potato gnocchi with tomato and melted mozzarella.",
+    [
+      "Potato gnocchi — 500 g",
+      "Tomatoes — 1 can",
+      "Mozzarella — 1 pack",
+      "Spinach — 1 pack",
+      "Onion — 1"
+    ]
+  ],
+  "tacos": [
+    "Bean and corn tacos",
+    "Vegetarian",
+    "Crunchy vegetables, beans and corn in warm tortillas.",
+    [
+      "Tortillas — 1 pack",
+      "Beans — 1 can",
+      "Corn — 1 can",
+      "Tomatoes — 2",
+      "Avocado — 1"
+    ]
+  ],
+  "shakshuka": [
+    "Shakshuka with eggs",
+    "Middle Eastern classic",
+    "Eggs, tomatoes and bell peppers with spices and bread.",
+    [
+      "Eggs — 6",
+      "Tomatoes — 1 can",
+      "Bell peppers — 2",
+      "Onion — 1",
+      "Bread — 1 loaf"
+    ]
+  ],
+  "salmon-traybake": [
+    "Oven salmon with vegetables",
+    "Easy dinner",
+    "Baked salmon with potatoes, broccoli and lemon.",
+    [
+      "Salmon fillet — 500 g",
+      "Potatoes — 700 g",
+      "Broccoli — 1",
+      "Lemon — 1",
+      "Olive oil — 1 bottle"
+    ]
+  ],
+  "chicken-wraps": [
+    "Chicken and veggie wraps",
+    "Quick lunch",
+    "Juicy chicken wraps with crunchy vegetables and yoghurt sauce.",
+    [
+      "Chicken breast — 400 g",
+      "Tortillas — 1 pack",
+      "Lettuce — 1 pack",
+      "Cucumber — 1",
+      "Yoghurt — 1 pack"
+    ]
+  ],
+  "mushroom-risotto": [
+    "Mushroom risotto",
+    "Vegetarian",
+    "Creamy rice with mushrooms, parmesan and herbs.",
+    [
+      "Risotto rice — 300 g",
+      "Mushrooms — 300 g",
+      "Vegetable stock — 1 l",
+      "Parmesan — 100 g",
+      "Onion — 1"
+    ]
   ]
 };
 
@@ -219,6 +363,78 @@ export const svRecipes = {
       "Tomater — 250 g",
       "Fetaost — 1 förpackning",
       "Citron — 1 st"
+    ]
+  ],
+  "gnocchi": [
+    "Gnocchi med tomat och mozzarella",
+    "Vegetariskt",
+    "Potatisgnocchi med tomat och smält mozzarella.",
+    [
+      "Potatisgnocchi — 500 g",
+      "Tomater — 1 burk",
+      "Mozzarella — 1 förpackning",
+      "Spenat — 1 förpackning",
+      "Lök — 1 st"
+    ]
+  ],
+  "tacos": [
+    "Bön- och majstacos",
+    "Vegetariskt",
+    "Krispiga grönsaker, bönor och majs i varma tortillabröd.",
+    [
+      "Tortillabröd — 1 förpackning",
+      "Bönor — 1 burk",
+      "Majs — 1 burk",
+      "Tomater — 2 st",
+      "Avokado — 1 st"
+    ]
+  ],
+  "shakshuka": [
+    "Shakshuka med ägg",
+    "Klassiker från Mellanöstern",
+    "Ägg, tomater och paprika med kryddor och bröd.",
+    [
+      "Ägg — 6 st",
+      "Tomater — 1 burk",
+      "Paprika — 2 st",
+      "Lök — 1 st",
+      "Bröd — 1 limpa"
+    ]
+  ],
+  "salmon-traybake": [
+    "Ugnsbakad lax med grönsaker",
+    "Enkel middag",
+    "Ugnsbakad lax med potatis, broccoli och citron.",
+    [
+      "Laxfilé — 500 g",
+      "Potatis — 700 g",
+      "Broccoli — 1 st",
+      "Citron — 1 st",
+      "Olivolja — 1 flaska"
+    ]
+  ],
+  "chicken-wraps": [
+    "Kycklingwraps med grönsaker",
+    "Snabb lunch",
+    "Saftiga kycklingwraps med krispiga grönsaker och yoghurtsås.",
+    [
+      "Kycklingfilé — 400 g",
+      "Tortillabröd — 1 förpackning",
+      "Sallad — 1 förpackning",
+      "Gurka — 1 st",
+      "Yoghurt — 1 förpackning"
+    ]
+  ],
+  "mushroom-risotto": [
+    "Svamprisotto",
+    "Vegetariskt",
+    "Krämigt ris med champinjoner, parmesan och örter.",
+    [
+      "Risottoris — 300 g",
+      "Champinjoner — 300 g",
+      "Grönsaksbuljong — 1 l",
+      "Parmesan — 100 g",
+      "Lök — 1 st"
     ]
   ]
 };

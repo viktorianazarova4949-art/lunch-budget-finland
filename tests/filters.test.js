@@ -6,13 +6,13 @@ import { dishes } from '../src/data/dishes.js';
 
 test('vegetarian filter returns only vegetarian dishes', () => {
   const filtered = filterDishes(dishes, 'vegetarian');
-  assert.equal(filtered.length, 3);
+  assert.equal(filtered.length, 7);
   assert.ok(filtered.every((dish) => dish.kind.includes('vegetarian')));
 });
 
 test('quick filter uses actual preparation time', () => {
   const filtered = filterDishes(dishes, 'quick');
-  assert.equal(filtered.length, 4);
+  assert.equal(filtered.length, 8);
   assert.ok(filtered.every((dish) => dish.time <= 30));
   assert.equal(filtered.some((dish) => dish.id === 'soup'), false);
 });

@@ -33,5 +33,16 @@ export const en = {
   "forAll": "· total for all servings",
   "items": "Ingredients",
   "store": "Shop ↗",
-  "minute": "min"
+  "minute": "min",
+  "aiButton": "Seasonal ideas from Gemini",
+  "aiLoading": "Finding seasonal recipes…",
+  "aiReady": "Here are a few ideas. Check ingredients and availability at your store.",
+  "aiNote": "Gemini suggests recipes but does not check live prices or product availability.",
+  "aiMissingKey": "Gemini is not configured. Add an API key to your local .env file and restart the server.",
+  "aiRateLimited": "Gemini request limit reached. Try again later.",
+  "aiTimeout": "Gemini is taking too long to respond. Please try again.",
+  "aiFailed": "Could not get ideas from Gemini. Check your connection and API settings.",
+  "aiInvalidInput": "Enter a budget from €1 to €500 and 1 to 20 people.",
+  "aiIngredients": "Ingredients",
+  "aiResultsLabel": "Recipe ideas"
 };

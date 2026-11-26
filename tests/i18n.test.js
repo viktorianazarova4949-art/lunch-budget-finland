@@ -20,6 +20,14 @@ test('language switching supports ru, fi, en and sv only', () => {
   assert.ok(copy.sv.brand);
 });
 
+test('Gemini recipe controls have translations in every supported language', () => {
+  for (const language of ['ru', 'fi', 'en', 'sv']) {
+    assert.ok(copy[language].aiButton);
+    assert.ok(copy[language].aiMissingKey);
+    assert.ok(copy[language].aiResultsLabel);
+  }
+});
+
 test('Euro formatting produces locale-specific strings', () => {
   assert.match(formatCurrency(20.5, 'fi'), /20/);
   assert.match(formatCurrency(20.5, 'ru'), /20/);

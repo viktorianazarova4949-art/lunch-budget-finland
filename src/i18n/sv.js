@@ -33,5 +33,16 @@ export const sv = {
   "forAll": "· beräkning för alla portioner",
   "items": "Ingredienser",
   "store": "Butik ↗",
-  "minute": "min"
+  "minute": "min",
+  "aiButton": "Säsongstips från Gemini",
+  "aiLoading": "Letar efter säsongsrecept…",
+  "aiReady": "Här är några idéer. Kontrollera ingredienser och tillgänglighet i butiken.",
+  "aiNote": "Gemini föreslår recept men kontrollerar inte aktuella priser eller produkttillgänglighet.",
+  "aiMissingKey": "Gemini är inte konfigurerat. Lägg till en API-nyckel i din lokala .env-fil och starta om servern.",
+  "aiRateLimited": "Geminis gräns för förfrågningar har nåtts. Försök igen senare.",
+  "aiTimeout": "Gemini svarar för långsamt. Försök igen.",
+  "aiFailed": "Kunde inte hämta idéer från Gemini. Kontrollera anslutningen och API-inställningarna.",
+  "aiInvalidInput": "Ange en budget mellan 1 och 500 € och 1 till 20 personer.",
+  "aiIngredients": "Ingredienser",
+  "aiResultsLabel": "Receptidéer"
 };

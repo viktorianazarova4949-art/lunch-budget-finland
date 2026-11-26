@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="./src/styles/layout.css">
 <link rel="stylesheet" href="./src/styles/components.css">
 <link rel="stylesheet" href="./src/styles/responsive.css">
+<link rel="stylesheet" href="./src/styles/refresh.css">
 </head>
 <body>
 <header class="wrap top"><div class="brand"><span class="mark">🍲</span> Обед по карману</div><div class="head-actions"><select class="language" id="language" aria-label="Language"><option value="ru">Русский</option><option value="fi">Suomi</option><option value="en">English</option><option value="sv">Svenska</option></select><div class="today" id="today"></div></div></header>
@@ -17,7 +18,10 @@
 <div class="controls"><h2>Ваш план на сегодня</h2><div class="fields"><div class="field"><label for="budget">Бюджет, €</label><input id="budget" type="number" min="1" max="500" value="20" step="1"></div><div class="field"><label for="people">Количество человек</label><input id="people" type="number" min="1" max="20" value="4" step="1"></div></div><div class="tabrow"><button class="tab active" data-filter="all">Все блюда</button><button class="tab" data-filter="vegetarian">Вегетарианские</button><button class="tab" data-filter="quick">До 30 минут</button></div></div>
 <div class="stores-box"><h2>Сравнить магазины</h2><div class="store-list"><label class="store"><input type="checkbox" checked value="prisma"><span class="logo pr">S</span><span class="store-label">Prisma<span class="store-note">Цены могут зависеть от филиала</span></span></label><label class="store"><input type="checkbox" checked value="citymarket"><span class="logo ks">K</span><span class="store-label">K‑Citymarket<span class="store-note">Выберите магазин на K‑Ruoka</span></span></label><label class="store"><input type="checkbox" checked value="lidl"><span class="logo ld">L</span><span class="store-label">Lidl<span class="store-note">Ориентировочная оценка</span></span></label></div></div>
 </section>
-<div class="section-head"><h2>Что приготовить</h2><span id="resultCount"></span></div>
+<div class="section-head"><div class="section-title"><h2>Что приготовить</h2><span id="resultCount"></span></div><button class="btn ai-button" id="aiIdeas" type="button" aria-controls="aiResults">✨ Идеи сезона от Gemini</button></div>
+<p class="ai-note" id="aiNote"></p>
+<div class="ai-status" id="aiStatus" role="status" aria-live="polite"></div>
+<section class="ai-results" id="aiResults" aria-label="Идеи блюд"></section>
 <section id="results" class="results"></section>
 <div class="notice"><span>ℹ️</span><div><strong>Демонстрационный прототип.</strong> Цены в карточках примерные и не загружаются из магазинов в реальном времени. Для точного сравнения нужны цены выбранного филиала Prisma или K‑Citymarket; у Lidl каталог может быть недоступен онлайн. Проверяйте стоимость и наличие перед покупкой.</div></div>
 <footer class="foot"><span>Расчёт корзины на число порций · суммы округлены до центов</span><span><a class="links" target="_blank" rel="noreferrer" href="https://www.s-kaupat.fi/">Открыть S‑kaupat ↗</a>　<a class="links" target="_blank" rel="noreferrer" href="https://www.k-ruoka.fi/">Открыть K‑Ruoka ↗</a>　<a class="links" target="_blank" rel="noreferrer" href="https://www.lidl.fi/">Открыть Lidl ↗</a></span></footer>

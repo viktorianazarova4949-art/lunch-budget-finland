@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "python -m http.server 4173",
+    "start": "node server.mjs",
     "test": "node --test",
     "sync:prisma-prices": "node scripts/sync-prisma-prices.mjs"
   }

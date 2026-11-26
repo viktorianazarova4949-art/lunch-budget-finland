@@ -33,5 +33,16 @@ export const fi = {
   "forAll": "· kaikille annoksille",
   "items": "Ainekset",
   "store": "Kauppaan",
-  "minute": "min"
+  "minute": "min",
+  "aiButton": "Kauden ideat Geminiltä",
+  "aiLoading": "Etsitään kauden reseptejä…",
+  "aiReady": "Tässä muutama idea. Tarkista ainekset ja saatavuus kaupasta.",
+  "aiNote": "Gemini ehdottaa reseptejä, mutta ei tarkista hintoja tai tuotteiden saatavuutta.",
+  "aiMissingKey": "Geminiä ei ole määritetty. Lisää API-avain paikalliseen .env-tiedostoon ja käynnistä palvelin uudelleen.",
+  "aiRateLimited": "Geminin pyyntöraja saavutettu. Yritä myöhemmin uudelleen.",
+  "aiTimeout": "Gemini vastaa liian hitaasti. Yritä uudelleen.",
+  "aiFailed": "Gemini-ideoiden hakeminen epäonnistui. Tarkista yhteys ja API-asetukset.",
+  "aiInvalidInput": "Anna budjetiksi 1–500 € ja henkilömääräksi 1–20.",
+  "aiIngredients": "Ainekset",
+  "aiResultsLabel": "Resepti-ideat"
 };
